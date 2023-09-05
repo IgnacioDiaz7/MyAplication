@@ -12,6 +12,7 @@ import { AnimationComponent } from './components/animation/animation.component';
 
 
 
+
 @NgModule({
   declarations: [
     HeaderComponent,
