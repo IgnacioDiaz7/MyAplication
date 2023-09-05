@@ -6,6 +6,8 @@ import { RouterModule } from '@angular/router';
 import { HeaderComponent } from './components/header/header.component';
 import { CustomImputComponent } from './components/custom-imput/custom-imput.component';
 import { LogoComponent } from './components/logo/logo.component';
+import { AnimationComponent } from './components/animation/animation.component';
+
 
 
 
@@ -14,12 +16,16 @@ import { LogoComponent } from './components/logo/logo.component';
   declarations: [
     HeaderComponent,
     CustomImputComponent,
-    LogoComponent
+    LogoComponent,
+    AnimationComponent
+    
   ],
   exports: [
     HeaderComponent,
     CustomImputComponent,
-    LogoComponent
+    LogoComponent,
+    AnimationComponent
+    
   ],
   imports: [
     CommonModule,
