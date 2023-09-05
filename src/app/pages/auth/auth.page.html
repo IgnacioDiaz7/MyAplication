@@ -21,7 +21,7 @@
       <div *ngIf="form.controls.password.errors?.['required']">Ingresa tu contraseña</div>
     </div>
     
-  <ion-button class="ion-margin-vertical" [disabled]="form.invalid" type="submit" shape="round">
+  <ion-button routerLink="animacion" class="ion-margin-vertical" [disabled]="form.invalid" type="submit" shape="round">
     Acceder
     <ion-icon slot="end" name="log-in-outline"></ion-icon>
   </ion-button>
