@@ -10,6 +10,27 @@ export class AnimacionPage implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.log('AnimacionPage ngOnInit')
+  }
+
+  ngOnDestroy(){
+    console.log('AnimacionPage ngOnDestroy')
+  }
+
+  ionViewWillEnter(){
+    console.log('AnimacionPage ionViewWillEnter')
+  }
+
+  ionViewDidEnter(){
+    console.log('AnimacionPage ionViewDidEnter')
+  }
+
+  ionViewWillLeave(){
+    console.log('AnimacionPage ionViewWillLeave')
+  }
+
+  ionViewDidLeave(){
+    console.log('AnimacionPage ionViewDidLeave')
   }
 
 }

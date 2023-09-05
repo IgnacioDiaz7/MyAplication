@@ -19,7 +19,28 @@ export class SignUpPage implements OnInit {
     constructor() { }
   
     ngOnInit() {
+      console.log('SignUpPage ngOnInit')
       this.confirmPasswordValidator()
+    }
+
+    ngOnDestroy(){
+      console.log('SignUpPage ngOnDestroy')
+    }
+
+    ionViewWillEnter(){
+      console.log('SignUpPage ionViewWillEnter')
+    }
+
+    ionViewDidEnter(){
+      console.log('SignUpPage ionViewDidEnter')
+    }
+
+    ionViewWillLeave(){
+      console.log('SignUpPage ionViewWillLeave')
+    }
+
+    ionViewDidLeave(){
+      console.log('SignUpPage ionViewDidLeave')
     }
 
     confirmPasswordValidator(){
